@@ -1,0 +1,25 @@
+baseURL = "https://gigaarpit.github.io/sample-hugo-site/"
+languageCode = "en"
+title = "My Website"
+theme = "yinyang"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+mainSections = ["posts"]
+headTitle = "My Website"
+author = "Arpit"
+description = "This is a sample Hugo website"
+relativeURLs = true
+
+
+[[params.socials]]
+name = "Twitter"
+link = "https://x.com/gigaArpit"
+[[params.socials]]
+name = "GitHub"
+link = "https://github.com/gigaArpit"
